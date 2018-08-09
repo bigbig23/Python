@@ -56,23 +56,6 @@ for item in d:
     em[item] = em_dict.get(item,0)+1 
 print(em)
 
-
-
-
-#Ecrire une fonction qui retourne tous les mots de la liste qui ont un “y” en seconde position.
-#def find_second_letter():
-liste = []
-liste_mots = ['eddard', 'catelyn', 'robb', 'sansa', 'arya', 'brandon','rickon', 'theon', 'rorbert', 'cersei', 'tywin', 'jaime',  'tyrion', 'shae', 'bronn', 'lancel', 'joffrey', 'sandor', 'varys', 'renly', 'a']
-    
-for words in liste_mots:
-    if words[1] == 'y' and len(words) > 1:
-        liste.append(words)
-  
-    print(liste)
-#find_second_letter()
- 
- 
- 
  
  
 #
